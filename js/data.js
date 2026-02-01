@@ -1,20 +1,82 @@
 const products = [
-    {
-        id: 1,
-        name: "iPhone 15 Pro",
-        price: "28.000.000đ",
-        image: "https://via.placeholder.com/200"
-    },
-    {
-        id: 2,
-        name: "Samsung S24 Ultra",
-        price: "25.500.000đ",
-        image: "https://via.placeholder.com/200"
-    },
-    {
-        id: 3,
-        name: "MacBook Air M3",
-        price: "32.000.000đ",
-        image: "https://via.placeholder.com/200"
-    }
+  {
+    id: 1,
+    name: "Bút bi Thiên Long TL-027",
+    price: "100000",
+    image: "https://via.placeholder.com/200",
+    description: "Bút bi mực xanh, viết trơn",
+    brand: "Thiên Long",
+  },
+  {
+    id: 2,
+    name: "Bút gel TL-G08",
+    price: "120000",
+    image: "https://via.placeholder.com/200",
+    description: "Bút gel mực đen, nét mịn",
+    brand: "Thiên Long",
+  },
+  {
+    id: 3,
+    name: "Bút chì gỗ 2B",
+    price: "80000",
+    image: "https://via.placeholder.com/200",
+    description: "Bút chì gỗ dùng cho học sinh",
+    brand: "Thiên Long",
+  },
+  {
+    id: 4,
+    name: "Tập học sinh 200 trang",
+    price: "150000",
+    image: "https://via.placeholder.com200",
+    description: "Tập kẻ ngang, giấy dày",
+    brand: "Thiên Long",
+  },
+  {
+    id: 5,
+    name: "Vở lò xo A4",
+    price: "200000",
+    image: "https://via.placeholder.com/200",
+    description: "Vở lò xo bìa cứng",
+    brand: "Thiên Long",
+  },
+  {
+    id: 6,
+    name: "Thước kẻ 20cm",
+    price: "50000",
+    image: "https://via.placeholder.com/200",
+    description: "Thước nhựa trong suốt",
+    brand: "Thiên Long",
+  },
+  {
+    id: 7,
+    name: "Gôm tẩy cao su",
+    price: "30000",
+    image: "https://via.placeholder.com/200",
+    description: "Gôm mềm, không lem giấy",
+    brand: "Thiên Long",
+  },
+  {
+    id: 8,
+    name: "Bút dạ quang",
+    price: "90000",
+    image: "https://via.placeholder.com/200",
+    description: "Bút dạ quang nhiều màu",
+    brand: "Thiên Long",
+  },
+  {
+    id: 9,
+    name: "Hộp bút học sinh",
+    price: "250000",
+    image: "https://via.placeholder.com/200",
+    description: "Hộp bút vải khóa kéo",
+    brand: "Thiên Long",
+  },
+  {
+    id: 10,
+    name: "Bút xóa nước",
+    price: "70000",
+    image: "https://via.placeholder.com/200",
+    description: "Bút xóa nhanh khô",
+    brand: "Thiên Long",
+  }
 ];
