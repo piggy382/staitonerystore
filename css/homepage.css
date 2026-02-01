@@ -55,7 +55,6 @@ body {
   font-size: 13px;
 }
 
-/* BANNER */
 .banner {
   height: 260px;
   background: linear-gradient(90deg, #ff4d4d, #ff0000);
@@ -78,7 +77,6 @@ body {
   font-weight: bold;
 }
 
-/* CATEGORY */
 .category {
   background: #fff;
   padding: 30px;
@@ -99,7 +97,6 @@ body {
   cursor: pointer;
 }
 
-/* PRODUCT */
 .bestseller {
   background: #fff;
   padding: 30px;
@@ -137,7 +134,6 @@ body {
   cursor: pointer;
 }
 
-/* FOOTER */
 footer {
   margin-top: 30px;
   padding: 20px;
