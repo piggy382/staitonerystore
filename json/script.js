@@ -1,6 +1,17 @@
-const productList = document.getElementById("product-list");
+async function loadProducts() {
+  try {
+    const res = await fetch("data.json");
+    const products = await res.json();
+    renderProducts(products);
+  } catch (error) {
+    console.log("err", error);
+  }
+}
 
-function renderProducts() {
+function renderProducts(products) {
+  const productList = document.getElementById("product-list");
+  if(!productList) return;
+
   productList.innerHTML = "";
 
   products.forEach((product) => {
@@ -17,8 +28,6 @@ function renderProducts() {
     productList.appendChild(productCard);
   });
 }
-
-renderProducts();
 
 function addToCart(id) {
   alert("Đã thêm sản phẩm có ID: " + id + " vào giỏ hàng!");
