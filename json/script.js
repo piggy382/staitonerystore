@@ -1,11 +1,9 @@
 const productList = document.getElementById('product-list');
 
 function renderProducts() {
-    // Xóa nội dung cũ (nếu có)
     productList.innerHTML = '';
 
     products.forEach(product => {
-        // Tạo thẻ div cho mỗi sản phẩm
         const productCard = document.createElement('div');
         productCard.classList.add('product-card');
 
