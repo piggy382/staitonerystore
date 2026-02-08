@@ -3,6 +3,8 @@ async function loadProducts() {
     const res = await fetch("data.json");
     const products = await res.json();
     renderProducts(products);
+    console.log(products);
+    
   } catch (error) {
     console.log("err", error);
   }
@@ -32,3 +34,5 @@ function renderProducts(products) {
 function addToCart(id) {
   alert("Đã thêm sản phẩm có ID: " + id + " vào giỏ hàng!");
 }
+
+loadProducts()
