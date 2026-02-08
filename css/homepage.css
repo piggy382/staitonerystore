@@ -95,6 +95,11 @@ body {
   cursor: pointer;
 }
 
+.category-item a {
+  text-decoration: none;
+  color: #b30000;
+}
+
 .bestseller {
   background: #fff;
   padding: 30px;

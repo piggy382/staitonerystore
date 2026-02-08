@@ -71,7 +71,7 @@ h1 {
   background: #2980b9;
 }
 .title{
-    
+    font-family: cursive;
 }
 
 @media (max-width: 1400px) {
