@@ -28,7 +28,7 @@ function renderProducts(products) {
     productList.appendChild(productCard);
   });
 }
-
+              
 function addToCart(id) {
   alert("Đã thêm sản phẩm có ID: " + id + " vào giỏ hàng!");
 }
