@@ -61,22 +61,28 @@ h1 {
   padding: 6px;
   border: none;
   border-radius: 4px;
-  background: #3498db;
+  color: #740a03;
   color: white;
   cursor: pointer;
   font-size: 13px;
 }
 
 .product-card button:hover {
-  background: #2980b9;
+  background: #e6501b;
 }
-.title{
-    font-family: cursive;
+.title {
+  font-family: cursive;
+  border: black solid;
+  background-color: #e6501b;
+ 
 }
 
-.backtohome{
-    text-decoration: none;
-    color: #e74c3c;
+.backtohome {
+  display: flex;
+  text-decoration: none;
+  color: #740a03;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1400px) {
