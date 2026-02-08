@@ -74,6 +74,11 @@ h1 {
     font-family: cursive;
 }
 
+.backtohome{
+    text-decoration: none;
+    color: #e74c3c;
+}
+
 @media (max-width: 1400px) {
   #product-list {
     grid-template-columns: repeat(5, 1fr);

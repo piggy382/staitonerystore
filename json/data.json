@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Bút bi Thiên Long TL-027",
-    "price": "100000",
+    "price": "10.000 đồng",
     "image": "../img/butbi.jpg",
     "description": "Bút bi mực xanh, viết trơn",
     "brand": "Thiên Long"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Bút gel TL-G08",
-    "price": "120000",
+    "price": "12.000 đồng",
     "image": "../img/butgel.jpg",
     "description": "Bút gel mực đen, nét mịn",
     "brand": "Thiên Long"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Bút chì gỗ 2B",
-    "price": "80000",
+    "price": "8.000 đồng",
     "image": "../img/butchi.png",
     "description": "Bút chì gỗ dùng cho học sinh",
     "brand": "Thiên Long"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Tập học sinh 200 trang",
-    "price": "150000",
+    "price": "15.000 đồng",
     "image": "../img/vohocsinh200trang.jpg",
     "description": "Tập kẻ ngang, giấy dày",
     "brand": "Thiên Long"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Vở lò xo A4",
-    "price": "200000",
+    "price": "20.000 đồng",
     "image": "../img/voloxoa4.jpg",
     "description": "Vở lò xo bìa cứng",
     "brand": "Thiên Long"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Thước kẻ 20cm",
-    "price": "50000",
+    "price": "5.000 đồng",
     "image": "../img/thuocke20cm.jpg",
     "description": "Thước nhựa trong suốt",
     "brand": "Thiên Long"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Gôm tẩy cao su",
-    "price": "30000",
+    "price": "3.000 đồng",
     "image": "../img/gomtay.jpg",
     "description": "Gôm mềm, không lem giấy",
     "brand": "Thiên Long"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Bút dạ quang",
-    "price": "90000",
+    "price": "9.000 đồng",
     "image": "../img/butdaquang.jpg",
     "description": "Bút dạ quang nhiều màu",
     "brand": "Thiên Long"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Hộp bút học sinh",
-    "price": "250000",
+    "price": "25.000 đồng",
     "image": "../img/hopbuthocsinh.jpg",
     "description": "Hộp bút vải khóa kéo",
     "brand": "Thiên Long"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "Bút xóa nước",
-    "price": "70000",
+    "price": "7.000 đồng",
     "image": "../img/butxoanuoc.jpg",
     "description": "Bút xóa nhanh khô",
     "brand": "Thiên Long"
