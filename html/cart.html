@@ -1,83 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giỏ hàng - My School</title>
-    <link rel="stylesheet" href="../css/homepage.css" />
-    <link rel="stylesheet" href="../css/cart.css" />
-  </head>
-
-  <body>
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
     <nav class="navbar">
-      <div class="navbar-left">
-        <div class="logo"><a href="./homepage.html" style="text-decoration:none;color:inherit;">MY SCHOOL</a></div>
-      </div>
-
-      <div class="navbar-center">
-        <input type="text" placeholder="Tìm kiếm sản phẩm..." />
-        <button>Tìm kiếm</button>
-      </div>
-
-      <div class="navbar-right">
-        <div class="hotline">
-          <strong>0987548889</strong>
-          <span>Hỗ trợ khách hàng</span>
+        <div class="logo"><a href="./homepage.html">MY SCHOOL</a></div>
+        <div class="cart-icon">
+            <a href="./cart.html">🛒 <span id="cart-count">0</span></a>
         </div>
-
-        <div class="account">
-          <a href="#">Đăng nhập</a>
-          <a href="#">Đăng ký</a>
-        </div>
-
-        <div class="cart">
-          <a href="./cart.html" style="text-decoration:none;color:inherit;">
-            🛒 <span id="cart-count">0</span>
-          </a>
-        </div>
-      </div>
     </nav>
 
-    <main class="cart-page">
-      <h1 class="cart-title">🛒 Giỏ hàng của bạn</h1>
+    <main class="cart-container">
+        <h1 class="page-title">Giỏ hàng của bạn</h1>
 
-      <div class="cart-layout">
-        <section class="cart-left">
-          <div id="cart-items" class="cart-items"></div>
+        <div class="cart-layout">
+            <section class="cart-items-section">
+                <div id="cart-items-list">
+                    </div>
+                <div class="cart-footer">
+                    <a href="./productlist.html" class="btn-secondary">← Tiếp tục mua sắm</a>
+                    <button id="clear-all-cart" class="btn-danger-outline">Xóa toàn bộ giỏ hàng</button>
+                </div>
+            </section>
 
-          <div class="cart-actions">
-            <a class="btn-link" href="./productlist.html">← Quay lại danh sách sản phẩm</a>
-            <button id="clear-cart" class="btn-danger">Xóa toàn bộ giỏ</button>
-          </div>
-        </section>
-
-        <aside class="cart-right">
-          <div class="summary-card">
-            <h2>Tóm tắt</h2>
-            <div class="summary-row">
-              <span>Tạm tính</span>
-              <strong id="subtotal">0đ</strong>
-            </div>
-            <div class="summary-row">
-              <span>Phí vận chuyển</span>
-              <strong id="shipping">0đ</strong>
-            </div>
-            <hr />
-            <div class="summary-row total">
-              <span>Tổng cộng</span>
-              <strong id="total">0đ</strong>
-            </div>
-
-            <button class="btn-primary" id="checkout-btn">Thanh toán</button>
-            <p class="note">* Demo học tập: chưa tích hợp thanh toán thật.</p>
-          </div>
-        </aside>
-      </div>
+            <aside class="cart-summary">
+                <div class="summary-card">
+                    <h3>Tóm tắt đơn hàng</h3>
+                    <div class="summary-line">
+                        <span>Tạm tính:</span>
+                        <span id="subtotal">0đ</span>
+                    </div>
+                    <div class="summary-line">
+                        <span>Phí vận chuyển:</span>
+                        <span id="shipping-fee">0đ</span>
+                    </div>
+                    <hr>
+                    <div class="summary-line total">
+                        <span>Tổng cộng:</span>
+                        <strong id="final-total">0đ</strong>
+                    </div>
+                    <button class="btn-checkout">TIẾN HÀNH THANH TOÁN</button>
+                </div>
+            </aside>
+        </div>
     </main>
 
-    <footer>© 2026 My School. All rights reserved.</footer>
-
-    <!-- JS giỏ hàng -->
-    <script src="../js/cart.js"></script>
-  </body>
+    <script src="../json/cart.js"></script>
+</body>
 </html>
