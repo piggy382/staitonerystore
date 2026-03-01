@@ -1,0 +1,59 @@
+:root {
+  /* Light Theme Colors */
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --nav-bg: #b30000;
+  --nav-text: #fff;
+  --card-bg: #fff;
+  --card-border: #ddd;
+  --btn-primary: #ffc107;
+  --btn-primary-text: #000;
+  --btn-secondary: #b30000;
+  --btn-secondary-text: #fff;
+  --category-bg: #eee;
+  --price-color: red;
+}
+
+[data-theme="dark"] {
+  /* Dark Theme Colors */
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --nav-bg: #1f1f1f;
+  --nav-text: #ddd;
+  --card-bg: #1e1e1e;
+  --card-border: #333;
+  --btn-primary: #e0a800; /* slightly darker yellow */
+  --btn-primary-text: #000;
+  --btn-secondary: #8b0000; /* darker red */
+  --btn-secondary-text: #ddd;
+  --category-bg: #222;
+  --price-color: #ff6b6b; /* softer red for dark mode */
+}
+
+/* Base Body Styles */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* UI Controls in Navbar */
+.nav-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.theme-btn, .lang-btn {
+    background: transparent;
+    border: 1px solid var(--nav-text);
+    color: var(--nav-text);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.theme-btn:hover, .lang-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
