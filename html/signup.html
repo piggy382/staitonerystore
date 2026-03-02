@@ -1,48 +1,38 @@
 <!doctype html>
 <html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Đăng ký - My School</title>
+    <link rel="stylesheet" href="../css/signup.css" />
+    <link rel="stylesheet" href="../css/homepage.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Đăng ký - My School</title>
-  <link rel="icon" href="../img/favicon.ico" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="../css/theme.css" />
-  <link rel="stylesheet" href="../css/signup.css" />
-  <link rel="stylesheet" href="../css/homepage.css" />
-</head>
+  <body>
 
-<body>
 
-  <div id="header-container"></div>
+    <div class="auth-container">
+      <h1>Đăng ký</h1>
 
-  <div class="auth-container">
-    <h1 data-i18n="signup">Đăng ký</h1>
+      <form id="signup-form" class="auth-form">
+        <label>Họ tên</label>
+        <input id="signup-name" type="text" placeholder="Nhập họ tên" required />
 
-    <form id="signup-form" class="auth-form">
-      <label data-i18n="fullname">Họ tên</label>
-      <input id="signup-name" type="text" data-i18n-placeholder="fullname" placeholder="Nhập họ tên" required />
+        <label>Email</label>
+        <input id="signup-email" type="email" placeholder="Nhập email" required />
 
-      <label data-i18n="email">Email</label>
-      <input id="signup-email" type="email" data-i18n-placeholder="email" placeholder="Nhập email" required />
+        <label>Mật khẩu</label>
+        <input id="signup-password" type="password" placeholder="Nhập mật khẩu" required />
 
-      <label data-i18n="password">Mật khẩu</label>
-      <input id="signup-password" type="password" data-i18n-placeholder="password" placeholder="Nhập mật khẩu"
-        required />
+        <button type="submit">Tạo tài khoản</button>
+      </form>
 
-      <button type="submit" data-i18n="create_account">Tạo tài khoản</button>
-    </form>
-
-    <p class="auth-link">
-      <span data-i18n="already_have_account">Đã có tài khoản?</span> <a href="./login.html" data-i18n="login">Đăng
-        nhập</a>
-    </p>
-  </div>
-  <div id="footer-container"></div>
-
-  <script src="../js/theme.js"></script>
-  <script src="../js/i18n.js"></script>
-  <script src="../js/layout.js"></script>
-  <script src="../js/auth.js"></script>
-</body>
-
+      <p class="auth-link">
+        Đã có tài khoản? <a href="./login.html">Đăng nhập</a>
+      </p>
+    </div>
+    <script src="../json/auth.js"></script>
+    <script>
+      renderUserUI();
+    </script>
+  </body>
 </html>

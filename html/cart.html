@@ -1,64 +1,55 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giỏ hàng - My School</title>
-    <link rel="icon" href="../img/favicon.ico" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../css/theme.css">
     <link rel="stylesheet" href="../css/homepage.css">
     <link rel="stylesheet" href="../css/cart.css">
 </head>
-
 <body>
-    <div id="header-container"></div>
+    <nav class="navbar">
+        <div class="logo"><a href="./homepage.html">MY SCHOOL</a></div>
+        <div class="cart-icon">
+            <a href="./cart.html">🛒 <span id="cart-count">0</span></a>
+        </div>
+    </nav>
 
     <main class="cart-container">
-        <h1 class="page-title" data-i18n="cart_title">Giỏ hàng của bạn</h1>
+        <h1 class="page-title">Giỏ hàng của bạn</h1>
 
         <div class="cart-layout">
             <section class="cart-items-section">
                 <div id="cart-items-list">
-                </div>
+                    </div>
                 <div class="cart-footer">
-                    <a href="./productlist.html" class="btn-secondary" data-i18n="cart_continue">← Tiếp tục mua sắm</a>
-                    <button id="clear-all-cart" class="btn-danger-outline" data-i18n="cart_clear">Xóa toàn bộ giỏ
-                        hàng</button>
+                    <a href="./productlist.html" class="btn-secondary">← Tiếp tục mua sắm</a>
+                    <button id="clear-all-cart" class="btn-danger-outline">Xóa toàn bộ giỏ hàng</button>
                 </div>
             </section>
 
             <aside class="cart-summary">
                 <div class="summary-card">
-                    <h3 data-i18n="cart_summary">Tóm tắt đơn hàng</h3>
+                    <h3>Tóm tắt đơn hàng</h3>
                     <div class="summary-line">
-                        <span data-i18n="cart_subtotal">Tạm tính:</span>
+                        <span>Tạm tính:</span>
                         <span id="subtotal">0đ</span>
                     </div>
                     <div class="summary-line">
-                        <span data-i18n="cart_shipping">Phí vận chuyển:</span>
+                        <span>Phí vận chuyển:</span>
                         <span id="shipping-fee">0đ</span>
                     </div>
                     <hr>
                     <div class="summary-line total">
-                        <span data-i18n="cart_total">Tổng cộng:</span>
+                        <span>Tổng cộng:</span>
                         <strong id="final-total">0đ</strong>
                     </div>
-                    <button class="btn-checkout" data-i18n="cart_checkout">TIẾN HÀNH THANH TOÁN</button>
+                    <button class="btn-checkout">TIẾN HÀNH THANH TOÁN</button>
                 </div>
             </aside>
         </div>
     </main>
 
-    <div id="footer-container"></div>
-
-    <script src="../js/theme.js"></script>
-    <script src="../js/i18n.js"></script>
-    <script src="../js/layout.js"></script>
-    <script src="../js/auth.js"></script>
-    <script src="../js/app.js"></script>
-    <script src="../js/cart.js"></script>
+    <script src="../json/cart.js"></script>
 </body>
-
 </html>
