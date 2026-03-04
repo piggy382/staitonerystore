@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài khoản của tôi - My School</title>
+    <link rel="icon" href="../img/favicon.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <script src="../js/theme.js"></script>
+    <script>
+        (function () {
+            const theme = localStorage.getItem('app_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+            document.write('<style>body { opacity: 0; transition: opacity 0.3s ease; }</style>');
+        })();
+    </script>
+</head>
+
+<body>
+    <div id="header-container"></div>
+
+    <main class="profile-container">
+        <h1 class="page-title">Tài khoản của tôi</h1>
+
+        <div class="profile-layout">
+            <!-- Sidebar Navigation -->
+            <aside class="profile-sidebar">
+                <div class="user-info">
+                    <div class="user-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div>
+                        <h3 class="user-name">Nguyễn Văn A</h3>
+                        <p class="user-email">email@tlu.edu.vn</p>
+                    </div>
+                </div>
+
+                <ul class="profile-menu">
+                    <li class="menu-item active" data-target="info-section">
+                        <i class="fas fa-user-edit"></i> Thông tin tài khoản
+                    </li>
+                    <li class="menu-item" data-target="orders-section">
+                        <i class="fas fa-box-open"></i> Quản lý đơn hàng
+                    </li>
+                    <li class="menu-item" data-target="address-section">
+                        <i class="fas fa-map-marker-alt"></i> Sổ địa chỉ
+                    </li>
+                    <li class="menu-item" data-target="wishlist-section">
+                        <i class="fas fa-heart"></i> Sản phẩm yêu thích
+                    </li>
+                    <li class="menu-item" id="logout-btn">
+                        <i class="fas fa-sign-out-alt"></i> Đăng xuất
+                    </li>
+                </ul>
+            </aside>
+
+            <!-- Main Content Area -->
+            <section class="profile-content">
+                <!-- Account Info Section (Default) -->
+                <div id="info-section" class="content-section active">
+                    <h2>Thông tin tài khoản</h2>
+                    <form id="profile-update-form" class="profile-form">
+                        <div class="form-group">
+                            <label>Họ và tên</label>
+                            <input type="text" id="profile-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Tên đăng nhập / Nickname</label>
+                            <input type="text" id="profile-username" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email (Không thể thay đổi)</label>
+                            <input type="email" id="profile-email" disabled>
+                        </div>
+                        <div class="form-group">
+                            <label>Ngày sinh</label>
+                            <input type="date" id="profile-dob">
+                        </div>
+                        <div class="form-group">
+                            <label>Giới tính</label>
+                            <div class="radio-group"
+                                style="display: flex; gap: 20px; align-items: center; margin-top: 10px;">
+                                <label style="font-weight: normal; margin: 0;"><input type="radio" name="gender"
+                                        value="male" id="profile-gender-m"> Nam</label>
+                                <label style="font-weight: normal; margin: 0;"><input type="radio" name="gender"
+                                        value="female" id="profile-gender-f"> Nữ</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-save">Lưu Thay Đổi</button>
+                    </form>
+                </div>
+
+                <!-- Orders Section -->
+                <div id="orders-section" class="content-section">
+                    <h2>Quản lý đơn hàng</h2>
+                    <div id="order-list-container" class="order-list">
+                        <!-- Loaded dynamically via js/profile.js -->
+                    </div>
+                </div>
+
+                <div id="address-section" class="content-section">
+                    <div
+                        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+                        <h2>Sổ địa chỉ</h2>
+                        <button id="btn-add-new-address" class="btn-add-new">+ Thêm địa chỉ mới</button>
+                    </div>
+                    <div id="address-list-container" class="address-list">
+                        <!-- Addresses dynamically generated via js -->
+                    </div>
+                </div>
+
+                <!-- Wishlist Section -->
+                <div id="wishlist-section" class="content-section">
+                    <h2>Sản phẩm yêu thích</h2>
+                    <div id="wishlist-list" class="wishlist-grid"
+                        style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px;">
+                        <!-- Mapped via profile.js -->
+                        <p style="color:var(--text-color); opacity:0.7;">Bạn chưa có sản phẩm yêu thích nào.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script src="../js/toast.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/i18n.js"></script>
+    <script src="../js/layout.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/profile.js"></script>
+
+    <!-- Modal cho Sổ Địa Chỉ -->
+    <div id="address-modal" class="modal" style="display: none;">
+        <div class="modal-content" style="max-width: 500px;">
+            <h3 id="address-modal-title">Thêm địa chỉ mới</h3>
+            <form id="address-form" class="profile-form" style="max-width: 100%;">
+                <input type="hidden" id="addr-id">
+                <div class="form-group">
+                    <label>Họ và tên người nhận</label>
+                    <input type="text" id="addr-name" required>
+                </div>
+                <div class="form-group">
+                    <label>Số điện thoại</label>
+                    <input type="tel" id="addr-phone" required>
+                </div>
+                <div class="form-group">
+                    <label>Địa chỉ nhận hàng chi tiết</label>
+                    <input type="text" id="addr-detail" required>
+                </div>
+                <div class="form-group" style="display: flex; align-items: center; gap: 10px; margin-top: 15px;">
+                    <input type="checkbox" id="addr-default"
+                        style="width: 16px; height: 16px; accent-color: var(--btn-primary); cursor: pointer;">
+                    <label for="addr-default" style="margin: 0; cursor: pointer; color: var(--text-color);">Đặt làm địa
+                        chỉ mặc định</label>
+                </div>
+                <div style="display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px;">
+                    <button type="button" class="btn-outline" onclick="closeAddressModal()">Hủy</button>
+                    <button type="submit" class="btn-save" style="margin-top: 0;">Lưu Địa Chỉ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

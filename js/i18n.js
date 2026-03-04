@@ -37,12 +37,14 @@ function applyTranslations() {
     window.translations = translations;
 }
 
-window.toggleLang = function () {
-    const currentLang = localStorage.getItem(LANG_KEY) || "vi";
-    const newLang = currentLang === "vi" ? "en" : "vi";
-    localStorage.setItem(LANG_KEY, newLang);
-    initI18n(); // Reload with new lang
-}
+document.addEventListener("click", (e) => {
+    if (e.target.closest("#lang-toggle")) {
+        const currentLang = localStorage.getItem(LANG_KEY) || "vi";
+        const newLang = currentLang === "vi" ? "en" : "vi";
+        localStorage.setItem(LANG_KEY, newLang);
+        initI18n(); // Reload with new lang
+    }
+});
 
 function updateLangToggleBtn(lang) {
     const btn = document.getElementById("lang-toggle");
@@ -56,5 +58,4 @@ window.t = function (key) {
     return translations[key] || key;
 }
 
-// Chạy hàm khởi tạo
-initI18n();
+// initI18n(); // Now called by layout.js to ensure coordination

@@ -30,15 +30,17 @@ function applyTheme(theme) {
 function updateThemeToggleBtn(theme) {
     const btn = document.getElementById("theme-toggle");
     if (btn) {
-        btn.innerHTML = theme === "dark" ? "☀️ Light" : "🌙 Dark";
+        btn.innerHTML = theme === "dark" ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
     }
 }
 
-function toggleTheme() {
-    const currentTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
-    const newTheme = currentTheme === "dark" ? "light" : "dark";
-    applyTheme(newTheme);
-}
+document.addEventListener("click", (e) => {
+    if (e.target.closest("#theme-toggle")) {
+        const currentTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+        applyTheme(newTheme);
+    }
+});
 
 // Chạy hàm khởi tạo theme khi load file
 initTheme();

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Body Left -->
+  <path fill="#0277bd" d="M 50,95 L 50,73 L 25,68 C 15,68 10,75 10,95 Z" />
+  <!-- Body Right -->
+  <path fill="#01579b" d="M 50,95 L 50,73 L 75,68 C 85,68 90,75 90,95 Z" />
+  <!-- Face Left -->
+  <path fill="#ffe0b2" d="M 50,25 L 28,25 L 28,55 C 28,68 35,72 50,72 Z" />
+  <!-- Face Right -->
+  <path fill="#ffcc80" d="M 50,25 L 72,25 L 72,55 C 72,68 65,72 50,72 Z" />
+  <!-- Hat Left -->
+  <path fill="#0277bd" d="M 50,10 L 10,30 L 50,45 Z" />
+  <!-- Hat Right -->
+  <path fill="#01579b" d="M 50,10 L 90,30 L 50,45 Z" />
+</svg>

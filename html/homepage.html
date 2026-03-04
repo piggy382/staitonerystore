@@ -5,44 +5,177 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trang chủ - My School</title>
-  <link rel="icon" href="../img/favicon.ico" />
+  <link rel="icon" href="../img/favicon.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="../css/theme.css" />
   <link rel="stylesheet" href="../css/homepage.css" />
+  <script>
+    // Immediate Theme Application to prevent FOUC
+    (function () {
+      const theme = localStorage.getItem('app_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      document.write('<style>body { opacity: 0; transition: opacity 0.3s ease; }</style>');
+    })();
+  </script>
 </head>
 
 <body>
   <div id="header-container"></div>
 
-  <div class="banner">
-    <div class="banner-content">
-      <h2 data-i18n="banner_title">Ưu đãi năm học mới</h2>
-      <p data-i18n="banner_desc">Giảm giá bút – vở – dụng cụ học tập lên đến 30%</p>
-      <button data-i18n="banner_btn">Xem ngay</button>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text-wrapper">
+        <span class="hero-badge" data-i18n="new_arrival">✨ Bộ sưu tập mới 2026</span>
+        <h1 class="hero-title" data-i18n="hero_title">Khơi Nguồn Sáng Tạo <br> Cùng <span class="text-gradient">My
+            School</span></h1>
+        <p class="hero-subtitle" data-i18n="hero_desc">Khám phá kho tàng văn phòng phẩm và dụng cụ học tập cao cấp, giúp
+          bạn tự tin chinh phục mọi thử thách học tập.</p>
+        <div class="hero-actions">
+          <a href="./productlist.html" class="btn btn-primary btn-lg" data-i18n="shop_now">Mua sắm ngay</a>
+          <a href="#categories" class="btn btn-outline btn-lg" data-i18n="view_categories">Xem danh mục</a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="hero-blob"></div>
+        <img src="../img/hero-illustration.png" alt="Hero Illustration" class="hero-img"
+          onerror="this.onerror=null; this.src='https://placehold.co/600x400?text=My+School';">
+      </div>
     </div>
-  </div>
+  </section>
 
-  <div class="category">
-    <h2 data-i18n="categories">Danh mục sản phẩm</h2>
-    <div class="category-list">
-      <div class="category-item"><a href="./productlist.html" data-i18n="category_list">Danh sách sản phẩm</a></div>
-      <div class="category-item" data-i18n="category_notebooks">Vở học sinh</div>
-      <div class="category-item" data-i18n="category_tools">Dụng cụ học tập</div>
-      <div class="category-item" data-i18n="category_office">Văn phòng phẩm</div>
+  <!-- Service Highlights -->
+  <section class="service-highlights">
+    <div class="container">
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-shipping-fast"></i></div>
+          <div class="service-info">
+            <h4 data-i18n="free_shipping">Giao hàng miễn phí</h4>
+            <p data-i18n="free_shipping_desc">Cho đơn hàng từ 500k</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-undo"></i></div>
+          <div class="service-info">
+            <h4 data-i18n="easy_return">Đổi trả dễ dàng</h4>
+            <p data-i18n="easy_return_desc">Trong vòng 7 ngày</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-headset"></i></div>
+          <div class="service-info">
+            <h4 data-i18n="support_247">Hỗ trợ 24/7</h4>
+            <p data-i18n="support_247_desc">Luôn đồng hành cùng bạn</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="service-info">
+            <h4 data-i18n="secure_payment">Thanh toán bảo mật</h4>
+            <p data-i18n="secure_payment_desc">An toàn tuyệt đối</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <div class="bestseller">
-    <h2 data-i18n="bestsellers">Sản phẩm nổi bật</h2>
-    <div class="product-list" id="product-list">
-      <!-- Products will be generated here by script.js -->
+  <!-- Categories Section -->
+  <section id="categories" class="categories-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title" data-i18n="explore_categories">Khám Phá Danh Mục</h2>
+          <p class="section-subtitle" data-i18n="explore_categories_desc">Tìm thấy mọi thứ bạn cần cho hành trình học
+            tập</p>
+        </div>
+        <div class="carousel-controls">
+          <button class="btn-carousel" id="cat-prev"><i class="fas fa-chevron-left"></i></button>
+          <button class="btn-carousel" id="cat-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+      <div class="carousel-wrapper">
+        <div class="category-list" id="category-carousel">
+          <!-- Dynamically generated or static with improved cards -->
+          <div class="category-card item-office">
+            <a href="./productlist.html?category=office">
+              <div class="cat-image"><img src="../img/cat-office.jpg"
+                  onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=Office';"></div>
+              <h4 data-i18n="category_office">Văn phòng phẩm</h4>
+            </a>
+          </div>
+          <div class="category-card item-notebook">
+            <a href="./productlist.html?category=notebook">
+              <div class="cat-image"><img src="../img/cat-notebook.jpg"
+                  onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=Notebook';">
+              </div>
+              <h4 data-i18n="category_notebooks">Vở học sinh</h4>
+            </a>
+          </div>
+          <div class="category-card item-tool">
+            <a href="./productlist.html?category=tool">
+              <div class="cat-image"><img src="../img/cat-tool.jpg"
+                  onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=Tools';"></div>
+              <h4 data-i18n="category_tools">Dụng cụ học tập</h4>
+            </a>
+          </div>
+          <div class="category-card item-backpack">
+            <a href="./productlist.html?category=backpack">
+              <div class="cat-image"><img src="../img/cat-backpack.jpg"
+                  onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=Backpack';">
+              </div>
+              <h4 data-i18n="category_backpacks">Balo học sinh</h4>
+            </a>
+          </div>
+          <div class="category-card item-uniform">
+            <a href="./productlist.html?category=uniform">
+              <div class="cat-image"><img src="../img/cat-uniform.jpg"
+                  onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=Uniform';">
+              </div>
+              <h4 data-i18n="category_uniforms">Đồng phục</h4>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <div id="footer-container"></div>
+  <!-- Bestsellers Section -->
+  <section class="bestsellers-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title" data-i18n="featured_products">Sản Phẩm Nổi Bật</h2>
+          <p class="section-subtitle" data-i18n="featured_products_desc">Những món đồ được yêu thích nhất tuần này</p>
+        </div>
+        <a href="./productlist.html" class="view-all" data-i18n="view_all">Xem tất cả <i
+            class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="product-grid" id="product-list">
+        <!-- Products will be generated here by app.js -->
+      </div>
+    </div>
+  </section>
 
-  <!-- Scripts must load after containers exist -->
-  <script src="../js/theme.js"></script>
+  <!-- Newsletter Section -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-card">
+        <div class="newsletter-content">
+          <h2 data-i18n="newsletter_title">Nhận Ưu Đãi Đặc Biệt</h2>
+          <p data-i18n="newsletter_desc">Đăng ký để nhận thông tin về các chương trình khuyến mãi và sản phẩm mới nhất.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Email của bạn..." data-i18n-placeholder="newsletter_input">
+            <button type="submit" class="btn btn-primary" data-i18n="subscribe">Đăng ký ngay</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="../js/i18n.js"></script>
+  <script src="../js/toast.js"></script>
   <script src="../js/layout.js"></script>
   <script src="../js/auth.js"></script>
   <script src="../js/app.js"></script>

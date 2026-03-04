@@ -1,0 +1,42 @@
+[
+    {
+        "id": "office",
+        "name": "Văn phòng phẩm",
+        "image": "../img/butbi.jpg"
+    },
+    {
+        "id": "notebook",
+        "name": "Vở học sinh",
+        "image": "../img/vohocsinh200trang.jpg"
+    },
+    {
+        "id": "tool",
+        "name": "Dụng cụ học tập",
+        "image": "../img/thuocke20cm.jpg"
+    },
+    {
+        "id": "backpack",
+        "name": "Balo học sinh",
+        "image": "../img/balo_chong_gu.jpg"
+    },
+    {
+        "id": "uniform",
+        "name": "Đồng phục",
+        "image": "../img/ao_so_mi.jpg"
+    },
+    {
+        "id": "book",
+        "name": "Sách giáo khoa",
+        "image": "../img/sgk_toan.jpg"
+    },
+    {
+        "id": "calculator",
+        "name": "Máy tính cầm tay",
+        "image": "../img/casio.jpg"
+    },
+    {
+        "id": "art",
+        "name": "Mỹ thuật",
+        "image": "../img/mau_sap.jpg"
+    }
+]
