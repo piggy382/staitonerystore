@@ -1,82 +1,2162 @@
 [
   {
     "id": 1,
-    "name": "Bút bi Thiên Long TL-027",
-    "price": "10.000",
+    "name": "Văn phòng phẩm 001",
+    "price": "14.000",
     "image": "../img/butbi.jpg",
-    "description": "Bút bi mực xanh, viết trơn",
-    "brand": "Thiên Long"
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 001. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
   },
   {
     "id": 2,
-    "name": "Bút gel TL-G08",
-    "price": "12.000  ",
-    "image": "../img/butgel.jpg",
-    "description": "Bút gel mực đen, nét mịn",
-    "brand": "Thiên Long"
+    "name": "Văn phòng phẩm 002",
+    "price": "13.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 002. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
   },
   {
     "id": 3,
-    "name": "Bút chì gỗ 2B",
-    "price": "8.000 ",
-    "image": "../img/butchi.png",
-    "description": "Bút chì gỗ dùng cho học sinh",
-    "brand": "Thiên Long"
+    "name": "Văn phòng phẩm 003",
+    "price": "10.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 003. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
   },
   {
     "id": 4,
-    "name": "Tập học sinh 200 trang",
-    "price": "15.000 ",
-    "image": "../img/vohocsinh200trang.jpg",
-    "description": "Tập kẻ ngang, giấy dày",
-    "brand": "Thiên Long"
+    "name": "Văn phòng phẩm 004",
+    "price": "13.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 004. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
   },
   {
     "id": 5,
-    "name": "Vở lò xo A4",
-    "price": "20.000",
-    "image": "../img/voloxoa4.jpg",
-    "description": "Vở lò xo bìa cứng",
-    "brand": "Thiên Long"
+    "name": "Văn phòng phẩm 005",
+    "price": "14.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 005. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
   },
   {
     "id": 6,
-    "name": "Thước kẻ 20cm",
-    "price": "5.000 ",
-    "image": "../img/thuocke20cm.jpg",
-    "description": "Thước nhựa trong suốt",
-    "brand": "Thiên Long"
+    "name": "Văn phòng phẩm 006",
+    "price": "11.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 006. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
   },
   {
     "id": 7,
-    "name": "Gôm tẩy cao su",
-    "price": "3.000 ",
-    "image": "../img/gomtay.jpg",
-    "description": "Gôm mềm, không lem giấy",
-    "brand": "Thiên Long"
+    "name": "Văn phòng phẩm 007",
+    "price": "10.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 007. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
   },
   {
     "id": 8,
-    "name": "Bút dạ quang",
-    "price": "9.000 ",
-    "image": "../img/butdaquang.jpg",
-    "description": "Bút dạ quang nhiều màu",
-    "brand": "Thiên Long"
+    "name": "Văn phòng phẩm 008",
+    "price": "12.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 008. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
   },
   {
     "id": 9,
-    "name": "Hộp bút học sinh",
-    "price": "25.000 ",
-    "image": "../img/hopbuthocsinh.jpg",
-    "description": "Hộp bút vải khóa kéo",
-    "brand": "Thiên Long"
+    "name": "Văn phòng phẩm 009",
+    "price": "14.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 009. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
   },
   {
     "id": 10,
-    "name": "Bút xóa nước",
+    "name": "Văn phòng phẩm 010",
+    "price": "10.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 010. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 11,
+    "name": "Văn phòng phẩm 011",
+    "price": "14.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 011. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 12,
+    "name": "Văn phòng phẩm 012",
+    "price": "13.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 012. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 13,
+    "name": "Văn phòng phẩm 013",
+    "price": "11.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 013. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 14,
+    "name": "Văn phòng phẩm 014",
+    "price": "13.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 014. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 15,
+    "name": "Văn phòng phẩm 015",
+    "price": "12.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 015. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 16,
+    "name": "Văn phòng phẩm 016",
+    "price": "13.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 016. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 17,
+    "name": "Văn phòng phẩm 017",
+    "price": "13.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 017. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 18,
+    "name": "Văn phòng phẩm 018",
+    "price": "11.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 018. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 19,
+    "name": "Văn phòng phẩm 019",
+    "price": "10.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 019. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 20,
+    "name": "Văn phòng phẩm 020",
+    "price": "14.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 020. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 21,
+    "name": "Văn phòng phẩm 021",
+    "price": "14.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 021. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 22,
+    "name": "Văn phòng phẩm 022",
+    "price": "14.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 022. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 23,
+    "name": "Văn phòng phẩm 023",
+    "price": "12.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 023. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 24,
+    "name": "Văn phòng phẩm 024",
+    "price": "14.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 024. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 25,
+    "name": "Văn phòng phẩm 025",
+    "price": "11.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 025. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 26,
+    "name": "Văn phòng phẩm 026",
+    "price": "14.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 026. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 27,
+    "name": "Văn phòng phẩm 027",
+    "price": "11.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 027. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 28,
+    "name": "Văn phòng phẩm 028",
+    "price": "11.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 028. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 29,
+    "name": "Văn phòng phẩm 029",
+    "price": "10.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 029. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 30,
+    "name": "Văn phòng phẩm 030",
+    "price": "11.000",
+    "image": "../img/butbi.jpg",
+    "description": "Mô tả cho Văn phòng phẩm phiên bản mẫu số 030. Sản phẩm chính hãng.",
+    "brand": "Thiên Long",
+    "category": "office"
+  },
+  {
+    "id": 31,
+    "name": "Vở học sinh 001",
+    "price": "16.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 001. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 32,
+    "name": "Vở học sinh 002",
+    "price": "16.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 002. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 33,
+    "name": "Vở học sinh 003",
+    "price": "16.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 003. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 34,
+    "name": "Vở học sinh 004",
+    "price": "16.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 004. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 35,
+    "name": "Vở học sinh 005",
+    "price": "19.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 005. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 36,
+    "name": "Vở học sinh 006",
+    "price": "15.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 006. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 37,
+    "name": "Vở học sinh 007",
+    "price": "15.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 007. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 38,
+    "name": "Vở học sinh 008",
+    "price": "17.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 008. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 39,
+    "name": "Vở học sinh 009",
+    "price": "17.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 009. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 40,
+    "name": "Vở học sinh 010",
+    "price": "17.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 010. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 41,
+    "name": "Vở học sinh 011",
+    "price": "16.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 011. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 42,
+    "name": "Vở học sinh 012",
+    "price": "16.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 012. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 43,
+    "name": "Vở học sinh 013",
+    "price": "15.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 013. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 44,
+    "name": "Vở học sinh 014",
+    "price": "19.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 014. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 45,
+    "name": "Vở học sinh 015",
+    "price": "19.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 015. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 46,
+    "name": "Vở học sinh 016",
+    "price": "17.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 016. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 47,
+    "name": "Vở học sinh 017",
+    "price": "17.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 017. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 48,
+    "name": "Vở học sinh 018",
+    "price": "16.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 018. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 49,
+    "name": "Vở học sinh 019",
+    "price": "18.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 019. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 50,
+    "name": "Vở học sinh 020",
+    "price": "19.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 020. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 51,
+    "name": "Vở học sinh 021",
+    "price": "17.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 021. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 52,
+    "name": "Vở học sinh 022",
+    "price": "15.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 022. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 53,
+    "name": "Vở học sinh 023",
+    "price": "15.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 023. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 54,
+    "name": "Vở học sinh 024",
+    "price": "19.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 024. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 55,
+    "name": "Vở học sinh 025",
+    "price": "16.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 025. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 56,
+    "name": "Vở học sinh 026",
+    "price": "18.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 026. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 57,
+    "name": "Vở học sinh 027",
+    "price": "16.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 027. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 58,
+    "name": "Vở học sinh 028",
+    "price": "16.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 028. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 59,
+    "name": "Vở học sinh 029",
+    "price": "18.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 029. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 60,
+    "name": "Vở học sinh 030",
+    "price": "18.000",
+    "image": "../img/vohocsinh200trang.jpg",
+    "description": "Mô tả cho Vở học sinh phiên bản mẫu số 030. Sản phẩm chính hãng.",
+    "brand": "Campus",
+    "category": "notebook"
+  },
+  {
+    "id": 61,
+    "name": "Dụng cụ học tập 001",
     "price": "7.000",
-    "image": "../img/butxoanuoc.jpg",
-    "description": "Bút xóa nhanh khô",
-    "brand": "Thiên Long"
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 001. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 62,
+    "name": "Dụng cụ học tập 002",
+    "price": "7.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 002. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 63,
+    "name": "Dụng cụ học tập 003",
+    "price": "8.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 003. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 64,
+    "name": "Dụng cụ học tập 004",
+    "price": "7.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 004. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 65,
+    "name": "Dụng cụ học tập 005",
+    "price": "9.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 005. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 66,
+    "name": "Dụng cụ học tập 006",
+    "price": "6.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 006. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 67,
+    "name": "Dụng cụ học tập 007",
+    "price": "8.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 007. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 68,
+    "name": "Dụng cụ học tập 008",
+    "price": "5.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 008. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 69,
+    "name": "Dụng cụ học tập 009",
+    "price": "5.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 009. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 70,
+    "name": "Dụng cụ học tập 010",
+    "price": "5.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 010. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 71,
+    "name": "Dụng cụ học tập 011",
+    "price": "8.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 011. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 72,
+    "name": "Dụng cụ học tập 012",
+    "price": "6.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 012. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 73,
+    "name": "Dụng cụ học tập 013",
+    "price": "6.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 013. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 74,
+    "name": "Dụng cụ học tập 014",
+    "price": "8.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 014. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 75,
+    "name": "Dụng cụ học tập 015",
+    "price": "9.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 015. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 76,
+    "name": "Dụng cụ học tập 016",
+    "price": "8.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 016. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 77,
+    "name": "Dụng cụ học tập 017",
+    "price": "9.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 017. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 78,
+    "name": "Dụng cụ học tập 018",
+    "price": "6.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 018. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 79,
+    "name": "Dụng cụ học tập 019",
+    "price": "8.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 019. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 80,
+    "name": "Dụng cụ học tập 020",
+    "price": "8.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 020. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 81,
+    "name": "Dụng cụ học tập 021",
+    "price": "8.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 021. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 82,
+    "name": "Dụng cụ học tập 022",
+    "price": "7.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 022. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 83,
+    "name": "Dụng cụ học tập 023",
+    "price": "9.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 023. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 84,
+    "name": "Dụng cụ học tập 024",
+    "price": "5.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 024. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 85,
+    "name": "Dụng cụ học tập 025",
+    "price": "7.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 025. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 86,
+    "name": "Dụng cụ học tập 026",
+    "price": "6.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 026. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 87,
+    "name": "Dụng cụ học tập 027",
+    "price": "6.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 027. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 88,
+    "name": "Dụng cụ học tập 028",
+    "price": "7.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 028. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 89,
+    "name": "Dụng cụ học tập 029",
+    "price": "8.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 029. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 90,
+    "name": "Dụng cụ học tập 030",
+    "price": "7.000",
+    "image": "../img/thuocke20cm.jpg",
+    "description": "Mô tả cho Dụng cụ học tập phiên bản mẫu số 030. Sản phẩm chính hãng.",
+    "brand": "Deli",
+    "category": "tool"
+  },
+  {
+    "id": 91,
+    "name": "Balo học sinh 001",
+    "price": "354.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 001. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 92,
+    "name": "Balo học sinh 002",
+    "price": "352.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 002. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 93,
+    "name": "Balo học sinh 003",
+    "price": "350.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 003. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 94,
+    "name": "Balo học sinh 004",
+    "price": "351.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 004. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 95,
+    "name": "Balo học sinh 005",
+    "price": "350.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 005. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 96,
+    "name": "Balo học sinh 006",
+    "price": "353.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 006. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 97,
+    "name": "Balo học sinh 007",
+    "price": "352.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 007. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 98,
+    "name": "Balo học sinh 008",
+    "price": "351.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 008. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 99,
+    "name": "Balo học sinh 009",
+    "price": "352.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 009. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 100,
+    "name": "Balo học sinh 010",
+    "price": "353.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 010. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 101,
+    "name": "Balo học sinh 011",
+    "price": "350.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 011. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 102,
+    "name": "Balo học sinh 012",
+    "price": "354.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 012. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 103,
+    "name": "Balo học sinh 013",
+    "price": "354.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 013. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 104,
+    "name": "Balo học sinh 014",
+    "price": "350.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 014. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 105,
+    "name": "Balo học sinh 015",
+    "price": "354.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 015. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 106,
+    "name": "Balo học sinh 016",
+    "price": "352.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 016. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 107,
+    "name": "Balo học sinh 017",
+    "price": "350.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 017. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 108,
+    "name": "Balo học sinh 018",
+    "price": "353.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 018. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 109,
+    "name": "Balo học sinh 019",
+    "price": "352.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 019. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 110,
+    "name": "Balo học sinh 020",
+    "price": "352.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 020. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 111,
+    "name": "Balo học sinh 021",
+    "price": "354.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 021. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 112,
+    "name": "Balo học sinh 022",
+    "price": "354.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 022. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 113,
+    "name": "Balo học sinh 023",
+    "price": "352.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 023. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 114,
+    "name": "Balo học sinh 024",
+    "price": "352.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 024. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 115,
+    "name": "Balo học sinh 025",
+    "price": "352.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 025. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 116,
+    "name": "Balo học sinh 026",
+    "price": "350.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 026. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 117,
+    "name": "Balo học sinh 027",
+    "price": "351.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 027. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 118,
+    "name": "Balo học sinh 028",
+    "price": "351.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 028. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 119,
+    "name": "Balo học sinh 029",
+    "price": "352.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 029. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 120,
+    "name": "Balo học sinh 030",
+    "price": "354.000",
+    "image": "../img/balo_chong_gu.jpg",
+    "description": "Mô tả cho Balo học sinh phiên bản mẫu số 030. Sản phẩm chính hãng.",
+    "brand": "Miti",
+    "category": "backpack"
+  },
+  {
+    "id": 121,
+    "name": "Đồng phục 001",
+    "price": "123.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 001. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 122,
+    "name": "Đồng phục 002",
+    "price": "123.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 002. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 123,
+    "name": "Đồng phục 003",
+    "price": "121.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 003. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 124,
+    "name": "Đồng phục 004",
+    "price": "123.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 004. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 125,
+    "name": "Đồng phục 005",
+    "price": "120.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 005. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 126,
+    "name": "Đồng phục 006",
+    "price": "123.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 006. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 127,
+    "name": "Đồng phục 007",
+    "price": "122.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 007. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 128,
+    "name": "Đồng phục 008",
+    "price": "121.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 008. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 129,
+    "name": "Đồng phục 009",
+    "price": "122.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 009. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 130,
+    "name": "Đồng phục 010",
+    "price": "120.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 010. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 131,
+    "name": "Đồng phục 011",
+    "price": "121.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 011. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 132,
+    "name": "Đồng phục 012",
+    "price": "124.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 012. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 133,
+    "name": "Đồng phục 013",
+    "price": "121.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 013. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 134,
+    "name": "Đồng phục 014",
+    "price": "122.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 014. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 135,
+    "name": "Đồng phục 015",
+    "price": "122.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 015. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 136,
+    "name": "Đồng phục 016",
+    "price": "124.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 016. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 137,
+    "name": "Đồng phục 017",
+    "price": "124.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 017. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 138,
+    "name": "Đồng phục 018",
+    "price": "122.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 018. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 139,
+    "name": "Đồng phục 019",
+    "price": "120.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 019. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 140,
+    "name": "Đồng phục 020",
+    "price": "122.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 020. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 141,
+    "name": "Đồng phục 021",
+    "price": "121.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 021. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 142,
+    "name": "Đồng phục 022",
+    "price": "121.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 022. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 143,
+    "name": "Đồng phục 023",
+    "price": "123.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 023. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 144,
+    "name": "Đồng phục 024",
+    "price": "124.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 024. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 145,
+    "name": "Đồng phục 025",
+    "price": "124.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 025. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 146,
+    "name": "Đồng phục 026",
+    "price": "124.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 026. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 147,
+    "name": "Đồng phục 027",
+    "price": "121.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 027. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 148,
+    "name": "Đồng phục 028",
+    "price": "122.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 028. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 149,
+    "name": "Đồng phục 029",
+    "price": "122.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 029. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 150,
+    "name": "Đồng phục 030",
+    "price": "123.000",
+    "image": "../img/ao_so_mi.jpg",
+    "description": "Mô tả cho Đồng phục phiên bản mẫu số 030. Sản phẩm chính hãng.",
+    "brand": "Việt Tiến",
+    "category": "uniform"
+  },
+  {
+    "id": 151,
+    "name": "Sách giáo khoa 001",
+    "price": "29.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 001. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 152,
+    "name": "Sách giáo khoa 002",
+    "price": "28.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 002. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 153,
+    "name": "Sách giáo khoa 003",
+    "price": "29.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 003. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 154,
+    "name": "Sách giáo khoa 004",
+    "price": "25.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 004. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 155,
+    "name": "Sách giáo khoa 005",
+    "price": "27.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 005. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 156,
+    "name": "Sách giáo khoa 006",
+    "price": "27.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 006. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 157,
+    "name": "Sách giáo khoa 007",
+    "price": "28.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 007. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 158,
+    "name": "Sách giáo khoa 008",
+    "price": "27.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 008. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 159,
+    "name": "Sách giáo khoa 009",
+    "price": "29.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 009. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 160,
+    "name": "Sách giáo khoa 010",
+    "price": "26.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 010. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 161,
+    "name": "Sách giáo khoa 011",
+    "price": "27.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 011. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 162,
+    "name": "Sách giáo khoa 012",
+    "price": "29.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 012. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 163,
+    "name": "Sách giáo khoa 013",
+    "price": "26.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 013. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 164,
+    "name": "Sách giáo khoa 014",
+    "price": "25.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 014. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 165,
+    "name": "Sách giáo khoa 015",
+    "price": "26.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 015. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 166,
+    "name": "Sách giáo khoa 016",
+    "price": "27.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 016. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 167,
+    "name": "Sách giáo khoa 017",
+    "price": "29.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 017. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 168,
+    "name": "Sách giáo khoa 018",
+    "price": "25.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 018. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 169,
+    "name": "Sách giáo khoa 019",
+    "price": "26.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 019. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 170,
+    "name": "Sách giáo khoa 020",
+    "price": "25.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 020. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 171,
+    "name": "Sách giáo khoa 021",
+    "price": "29.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 021. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 172,
+    "name": "Sách giáo khoa 022",
+    "price": "26.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 022. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 173,
+    "name": "Sách giáo khoa 023",
+    "price": "28.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 023. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 174,
+    "name": "Sách giáo khoa 024",
+    "price": "27.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 024. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 175,
+    "name": "Sách giáo khoa 025",
+    "price": "29.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 025. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 176,
+    "name": "Sách giáo khoa 026",
+    "price": "25.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 026. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 177,
+    "name": "Sách giáo khoa 027",
+    "price": "25.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 027. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 178,
+    "name": "Sách giáo khoa 028",
+    "price": "26.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 028. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 179,
+    "name": "Sách giáo khoa 029",
+    "price": "25.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 029. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 180,
+    "name": "Sách giáo khoa 030",
+    "price": "28.000",
+    "image": "../img/sgk_toan.jpg",
+    "description": "Mô tả cho Sách giáo khoa phiên bản mẫu số 030. Sản phẩm chính hãng.",
+    "brand": "NXB GD",
+    "category": "book"
+  },
+  {
+    "id": 181,
+    "name": "Máy tính cầm tay 001",
+    "price": "552.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 001. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 182,
+    "name": "Máy tính cầm tay 002",
+    "price": "551.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 002. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 183,
+    "name": "Máy tính cầm tay 003",
+    "price": "554.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 003. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 184,
+    "name": "Máy tính cầm tay 004",
+    "price": "550.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 004. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 185,
+    "name": "Máy tính cầm tay 005",
+    "price": "551.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 005. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 186,
+    "name": "Máy tính cầm tay 006",
+    "price": "551.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 006. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 187,
+    "name": "Máy tính cầm tay 007",
+    "price": "550.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 007. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 188,
+    "name": "Máy tính cầm tay 008",
+    "price": "554.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 008. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 189,
+    "name": "Máy tính cầm tay 009",
+    "price": "553.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 009. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 190,
+    "name": "Máy tính cầm tay 010",
+    "price": "551.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 010. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 191,
+    "name": "Máy tính cầm tay 011",
+    "price": "550.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 011. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 192,
+    "name": "Máy tính cầm tay 012",
+    "price": "553.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 012. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 193,
+    "name": "Máy tính cầm tay 013",
+    "price": "550.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 013. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 194,
+    "name": "Máy tính cầm tay 014",
+    "price": "552.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 014. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 195,
+    "name": "Máy tính cầm tay 015",
+    "price": "554.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 015. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 196,
+    "name": "Máy tính cầm tay 016",
+    "price": "553.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 016. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 197,
+    "name": "Máy tính cầm tay 017",
+    "price": "550.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 017. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 198,
+    "name": "Máy tính cầm tay 018",
+    "price": "550.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 018. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 199,
+    "name": "Máy tính cầm tay 019",
+    "price": "550.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 019. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 200,
+    "name": "Máy tính cầm tay 020",
+    "price": "554.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 020. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 201,
+    "name": "Máy tính cầm tay 021",
+    "price": "550.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 021. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 202,
+    "name": "Máy tính cầm tay 022",
+    "price": "552.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 022. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 203,
+    "name": "Máy tính cầm tay 023",
+    "price": "552.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 023. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 204,
+    "name": "Máy tính cầm tay 024",
+    "price": "552.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 024. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 205,
+    "name": "Máy tính cầm tay 025",
+    "price": "553.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 025. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 206,
+    "name": "Máy tính cầm tay 026",
+    "price": "553.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 026. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 207,
+    "name": "Máy tính cầm tay 027",
+    "price": "554.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 027. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 208,
+    "name": "Máy tính cầm tay 028",
+    "price": "551.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 028. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 209,
+    "name": "Máy tính cầm tay 029",
+    "price": "552.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 029. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 210,
+    "name": "Máy tính cầm tay 030",
+    "price": "550.000",
+    "image": "../img/casio.jpg",
+    "description": "Mô tả cho Máy tính cầm tay phiên bản mẫu số 030. Sản phẩm chính hãng.",
+    "brand": "Casio",
+    "category": "calculator"
+  },
+  {
+    "id": 211,
+    "name": "Mỹ thuật 001",
+    "price": "47.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 001. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 212,
+    "name": "Mỹ thuật 002",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 002. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 213,
+    "name": "Mỹ thuật 003",
+    "price": "48.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 003. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 214,
+    "name": "Mỹ thuật 004",
+    "price": "49.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 004. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 215,
+    "name": "Mỹ thuật 005",
+    "price": "48.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 005. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 216,
+    "name": "Mỹ thuật 006",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 006. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 217,
+    "name": "Mỹ thuật 007",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 007. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 218,
+    "name": "Mỹ thuật 008",
+    "price": "45.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 008. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 219,
+    "name": "Mỹ thuật 009",
+    "price": "47.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 009. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 220,
+    "name": "Mỹ thuật 010",
+    "price": "48.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 010. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 221,
+    "name": "Mỹ thuật 011",
+    "price": "45.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 011. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 222,
+    "name": "Mỹ thuật 012",
+    "price": "47.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 012. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 223,
+    "name": "Mỹ thuật 013",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 013. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 224,
+    "name": "Mỹ thuật 014",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 014. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 225,
+    "name": "Mỹ thuật 015",
+    "price": "47.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 015. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 226,
+    "name": "Mỹ thuật 016",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 016. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 227,
+    "name": "Mỹ thuật 017",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 017. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 228,
+    "name": "Mỹ thuật 018",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 018. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 229,
+    "name": "Mỹ thuật 019",
+    "price": "47.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 019. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 230,
+    "name": "Mỹ thuật 020",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 020. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 231,
+    "name": "Mỹ thuật 021",
+    "price": "47.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 021. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 232,
+    "name": "Mỹ thuật 022",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 022. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 233,
+    "name": "Mỹ thuật 023",
+    "price": "48.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 023. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 234,
+    "name": "Mỹ thuật 024",
+    "price": "45.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 024. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 235,
+    "name": "Mỹ thuật 025",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 025. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 236,
+    "name": "Mỹ thuật 026",
+    "price": "46.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 026. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 237,
+    "name": "Mỹ thuật 027",
+    "price": "47.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 027. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 238,
+    "name": "Mỹ thuật 028",
+    "price": "48.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 028. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 239,
+    "name": "Mỹ thuật 029",
+    "price": "47.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 029. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
+  },
+  {
+    "id": 240,
+    "name": "Mỹ thuật 030",
+    "price": "49.000",
+    "image": "../img/mau_sap.jpg",
+    "description": "Mô tả cho Mỹ thuật phiên bản mẫu số 030. Sản phẩm chính hãng.",
+    "brand": "Colokit",
+    "category": "art"
   }
 ]

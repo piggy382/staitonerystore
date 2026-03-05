@@ -1,0 +1,22 @@
+[
+    {
+        "id": "admin-static",
+        "name": "Super Admin",
+        "email": "admin@myschool.com",
+        "password": "Admin@123",
+        "dob": "1990-01-01",
+        "username": "superb_admin",
+        "role": "admin",
+        "orders": []
+    },
+    {
+        "id": "user-test",
+        "name": "Test User",
+        "email": "user@test.com",
+        "password": "User@123",
+        "dob": "2000-01-01",
+        "username": "tester",
+        "role": "user",
+        "orders": []
+    }
+]

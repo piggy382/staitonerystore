@@ -4,27 +4,118 @@
 <head>
   <meta charset="UTF-8" />
   <title>Shop đồ dùng học tập - My School</title>
-  <link rel="icon" href="../img/favicon.ico" />
+  <link rel="icon" href="../img/favicon.svg" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="../css/theme.css" />
   <link rel="stylesheet" href="../css/homepage.css" />
   <link rel="stylesheet" href="../css/productlist.css">
+  <script src="../js/theme.js"></script>
+  <script>
+    (function () {
+      const theme = localStorage.getItem('app_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      document.write('<style>body { opacity: 0; transition: opacity 0.3s ease; }</style>');
+    })();
+  </script>
 </head>
 
 <body>
 
   <div id="header-container"></div>
 
-  <h1 class="title" data-i18n="category_list">Danh sách sản phẩm</h1>
+  <div class="productlist-container">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb"
+      style="max-width: 1400px; margin: 0 auto 20px auto; font-size: 0.95rem; color: var(--text-color);">
+      <a href="../html/homepage.html" style="color: var(--text-color); text-decoration: none;">Trang chủ</a>
+      <span style="margin: 0 8px; color: var(--text-color); opacity: 0.6;">/</span>
+      <span style="font-weight: 600; color: var(--btn-primary);">Cửa hàng</span>
+    </nav>
 
-  <div id="product-list"></div>
-  <div><a href="homepage.html" class="backtohome" data-i18n="back_home">Quay lại trang chủ ở đây</a></div>
+    <h1 class="title" data-i18n="category_list">Danh sách sản phẩm</h1>
+
+    <div class="layout-wrapper">
+      <!-- Left Sidebar Placeholder -->
+      <aside class="sidebar left-sidebar">
+        <div class="filter-section">
+          <h3 class="filter-title">Danh mục</h3>
+          <div class="filter-options">
+            <label class="filter-label"><input type="radio" name="catFilter" value="all" checked> <span>Tất cả danh
+                mục</span></label>
+            <label class="filter-label"><input type="radio" name="catFilter" value="office"> <span>Văn phòng
+                phẩm</span></label>
+            <label class="filter-label"><input type="radio" name="catFilter" value="notebook"> <span>Vở học
+                sinh</span></label>
+            <label class="filter-label"><input type="radio" name="catFilter" value="tool"> <span>Dụng cụ học
+                tập</span></label>
+            <label class="filter-label"><input type="radio" name="catFilter" value="backpack"> <span>Balo học
+                sinh</span></label>
+            <label class="filter-label"><input type="radio" name="catFilter" value="uniform"> <span>Đồng
+                phục</span></label>
+            <label class="filter-label"><input type="radio" name="catFilter" value="book"> <span>Sách giáo
+                khoa</span></label>
+            <label class="filter-label"><input type="radio" name="catFilter" value="calculator"> <span>Máy tính cầm
+                tay</span></label>
+            <label class="filter-label"><input type="radio" name="catFilter" value="art"> <span>Mỹ thuật</span></label>
+          </div>
+        </div>
+
+        <div class="filter-section" style="margin-top: 30px;">
+          <h3 class="filter-title">Mức giá</h3>
+          <div class="filter-options">
+            <label class="filter-label"><input type="radio" name="priceFilter" value="all" checked> <span>Tất cả mức
+                giá</span></label>
+            <label class="filter-label"><input type="radio" name="priceFilter" value="under50"> <span>Dưới
+                50.000đ</span></label>
+            <label class="filter-label"><input type="radio" name="priceFilter" value="50to100"> <span>Từ 50.000đ -
+                100.000đ</span></label>
+            <label class="filter-label"><input type="radio" name="priceFilter" value="over100"> <span>Trên
+                100.000đ</span></label>
+          </div>
+        </div>
+
+        <button id="resetFiltersBtn" class="filter-reset-btn">Xóa bộ lọc</button>
+      </aside>
+
+      <!-- Main Product Area -->
+      <main class="main-content">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+          <p style="color: var(--text-color); font-size: 0.95rem;">Sắp xếp theo:</p>
+          <select id="product-sort"
+            style="padding: 8px 12px; border: 1px solid var(--card-border); border-radius: 6px; background: var(--card-bg); color: var(--text-color); cursor: pointer; font-family: inherit; font-size: 0.95rem; outline: none;">
+            <option value="default">Mặc định</option>
+            <option value="price-asc">Giá: Thấp đến Cao</option>
+            <option value="price-desc">Giá: Cao xuống Thấp</option>
+            <option value="name-asc">Tên: A - Z</option>
+            <option value="name-desc">Tên: Z - A</option>
+          </select>
+        </div>
+
+        <div id="product-list"></div>
+        <div id="pagination" class="pagination"></div>
+      </main>
+
+      <!-- Right Sidebar Placeholder -->
+      <aside class="sidebar right-sidebar">
+        <h3
+          style="margin-bottom: 20px; font-size: 1.2rem; position: relative; display: inline-block; padding-bottom: 5px;">
+          Khuyến Mãi
+          <div
+            style="position: absolute; bottom: 0; left: 0; width: 40px; height: 3px; background: var(--btn-primary); border-radius: 2px;">
+          </div>
+        </h3>
+        <p style="opacity: 0.8; font-size: 0.95rem;">Không gian trống để đặt Banner quảng cáo, sản phẩm gợi ý, tin tức,
+          vv.</p>
+      </aside>
+    </div>
+  </div>
 
   <div id="footer-container"></div>
 
-  <script src="../js/theme.js"></script>
   <script src="../js/i18n.js"></script>
+  <script src="../js/toast.js"></script>
   <script src="../js/layout.js"></script>
+  <script src="../js/auth.js"></script>
   <script src="../js/app.js"></script>
   <script src="../js/cart.js"></script>
 </body>
