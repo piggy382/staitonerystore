@@ -4,11 +4,19 @@
 <head>
   <meta charset="UTF-8" />
   <title>Đăng ký - My School</title>
-  <link rel="icon" href="../img/favicon.ico" />
+  <link rel="icon" href="../img/favicon.svg" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="../css/theme.css" />
   <link rel="stylesheet" href="../css/signup.css" />
   <link rel="stylesheet" href="../css/homepage.css" />
+  <script src="../js/theme.js"></script>
+  <script>
+    (function () {
+      const theme = localStorage.getItem('app_theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      document.write('<style>body { opacity: 0; transition: opacity 0.3s ease; }</style>');
+    })();
+  </script>
 </head>
 
 <body>
@@ -21,6 +29,12 @@
     <form id="signup-form" class="auth-form">
       <label data-i18n="fullname">Họ tên</label>
       <input id="signup-name" type="text" data-i18n-placeholder="fullname" placeholder="Nhập họ tên" required />
+
+      <label>Tên đăng nhập</label>
+      <input id="signup-username" type="text" placeholder="Nhập tên đăng nhập" required />
+
+      <label>Ngày sinh</label>
+      <input id="signup-dob" type="date" required />
 
       <label data-i18n="email">Email</label>
       <input id="signup-email" type="email" data-i18n-placeholder="email" placeholder="Nhập email" required />
